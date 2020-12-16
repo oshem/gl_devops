@@ -1,4 +1,5 @@
 import psutil
+psutil.PROCFS_PATH='/proc_h'
 cpu=psutil.cpu_times()
 mem = psutil.virtual_memory()
 swmem = psutil.swap_memory()
