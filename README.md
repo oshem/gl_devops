@@ -1,5 +1,4 @@
 # gl_devops
 
-sudo apt-get install gcc python3-dev
-sudo pip3 install psutil
-Run statistic.py
+Build dockerfile - docker build -t testtask .
+Run container with command docker run -it -v /proc:/proc_h testtask
